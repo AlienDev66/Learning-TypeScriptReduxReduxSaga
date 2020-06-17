@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 
-
-export default class RepositoryList extends Component<Props, state> {
+export default class RepositoryList extends Component {
 
     
     render(){
